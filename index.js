@@ -27,6 +27,8 @@ const initDataDir = function(dataDir, chain){
     initResult.on('exit', function(exit){
       return chain(exit === 0 ? null : "Bad exit code");
     });
+
+    return;
   }
 
   if(dataDirStat && !dataDirStat.isDirectory()) 
