@@ -7,6 +7,9 @@
     "mocha": "node node_modules/mocha/bin/_mocha -r mocha-plugin-co",
     "test": "npm run mocha"
   },
+  "os": [
+    "win32"
+  ],
   "repository": {
     "type": "git",
     "url": "git@github.com:131/node-pg-server-9.5-win-x86.git"
