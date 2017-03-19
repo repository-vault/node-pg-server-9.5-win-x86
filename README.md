@@ -4,7 +4,7 @@ Install and run [PostgreSQL server](http://www.postgresql.org) under the current
 
 
 [![Version](https://img.shields.io/npm/v/pg-server-9.5-win-x86.svg)](https://www.npmjs.com/package/pg-server-9.5-win-x86)
-[![License](https://img.shields.io/badge/license--blue.svg)](http://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](http://opensource.org/licenses/MIT)
 ![Available platform](https://img.shields.io/badge/platform-win32-blue.svg)
 
 
