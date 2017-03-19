@@ -2,8 +2,13 @@
 
 Install and run [PostgreSQL server](http://www.postgresql.org) under the current user inside of the application directory.
 
-```
 
+[![Version](https://img.shields.io/npm/v/pg-server-9.5-win-x86.svg)](https://www.npmjs.com/package/pg-server-9.5-win-x86)
+[![License](https://img.shields.io/badge/license--blue.svg)](http://opensource.org/licenses/MIT)
+[![Available platform](https://img.shields.io/badge/platform-win32-blue.svg)]
+
+
+```
 npm install pg-server-9.5-win-x86
 ```
 
@@ -42,8 +47,6 @@ startServer('dbdata', { port: 12345 }, function(err, postgres){
 
 });
 
-
-
 ```
 
 ## Default Settings
@@ -54,5 +57,4 @@ startServer('dbdata', { port: 12345 }, function(err, postgres){
 * Default port is `5432` (may be changed with `port` configuration setting).
 
 ## License
-
-PostgreSQL
+* PostgreSQL in under https://www.postgresql.org/about/licence/
