@@ -1,6 +1,6 @@
 {
   "name": "pg-server-9.5-win-x86",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "postgresql binaries for windows",
   "main": "index.js",
   "scripts": {
