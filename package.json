@@ -1,6 +1,6 @@
 {
   "name": "pg-server-9.5-win-x86",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "postgresql binaries for windows",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,7 @@
     "url": "https://github.com/131/node-pg-server-9.5-win-x86/issues"
   },
   "homepage": "https://github.com/131/node-pg-server-9.5-win-x86",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "expect.js": "^0.3.1",
     "mocha": "^3.1.2",
