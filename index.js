@@ -2,7 +2,6 @@
 
 const fs    = require('fs');
 const path  = require('path');
-const merge = require("mout/object/merge");
 const spawn = require("child_process").spawn;
 
 
@@ -49,7 +48,7 @@ module.exports = function(dataDir /*[, config,] chain */) {
       chain = args.pop(),
       config = args.pop() || {};
 
-  var fullConfig = merge(defaultConfig, config );
+  var fullConfig = Object.assign({}, defaultConfig, config);
 
   initDataDir(dataDir, function(err){
 

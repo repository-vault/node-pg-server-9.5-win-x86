@@ -25,7 +25,6 @@
   },
   "homepage": "https://github.com/131/node-pg-server-9.5-win-x86",
   "dependencies": {
-    "mout": "^1.0.0"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
