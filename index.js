@@ -71,6 +71,7 @@ module.exports = function(dataDir /*[, config,] chain */) {
     var child = spawn(
       path.join(PGBIN, 'postgres'), [
       '-D', dataDir ,// '-l', PGLOG, 
+      '-p', fullConfig.port ,
       //'-w', 'start'
     ]);
 
